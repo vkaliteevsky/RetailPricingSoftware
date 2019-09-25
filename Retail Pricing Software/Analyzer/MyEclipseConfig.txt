@@ -1,0 +1,10 @@
+C/C++ Build > Settings > GCC C++ Compiler > Includes (in the right (-l)):
+"${workspace_loc:/${ProjName}/units/gtest_scr}"
+
+C/C++ Build > Settings > GCC C++ Linker > Libraries (in the right Libraries (-l)):
+pthread
+pqxx
+pq
+event
+
+
